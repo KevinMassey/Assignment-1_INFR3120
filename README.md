@@ -12,3 +12,5 @@ The contact page, has a title, description and a form they can fill out. (it doe
 
 Gradient: Home Page
 Angled Linear Gradient: Projects Page
+
+For the color scheme, I stole LinkedIn's colour scheme as I found it simplistic and pretty.
