@@ -1,90 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Contact Me Page</title>
-</head>
+  <head>
+    <title>Contact Me Page</title>
+      <style>
+      nav {
+        text-align: center; /* Centers the Content */
+        margin-top: 3.125em;
+        border: 0.125em solid #0072B1;   /* LinkedIn Blue border */
+        padding: 0.9375em;
+      }
+      
+      nav a {
+        margin: 0 0.9375em; /*Spacing between Lines*/
+        text-decoration: none; /*Removes the Underlines*/
+        font-size: 2em; /*Sizing the text*/ 
+        color: #0072B1; /*LinkedIn Blue using Hexcode :D*/
+        font-family: 'Roboto', sans-serif;
+      }
 
-    <style>
-    nav {
-      text-align: center; /* Centers the Content */
-      margin-top: 3.125em;
-      border: 0.125em solid #0072B1;   /* LinkedIn Blue border */
-      padding: 0.9375em;
-    }
-    
-    nav a {
-      margin: 0 0.9375em; /*Spacing between Lines*/
-      text-decoration: none; /*Removes the Underlines*/
-      font-size: 2em; /*Sizing the text*/ 
-      color: #0072B1; /*LinkedIn Blue using Hexcode :D*/
-      font-family: 'Roboto', sans-serif;
-    }
+      h1, h3 {
+        text-align: left;
+        margin-top: 1.25em;
+        Color: #003e60;
+        font-family: 'Roboto', sans-serif;
+      }
 
-    h1, h3 {
-      text-align: left;
-      margin-top: 1.25em;
-      Color: #003e60;
-      font-family: 'Roboto', sans-serif;
-    }
+      h2 {
+        text-align: center;
+        margin-top: 1.25em;
+        Color: #003e60;
+        font-family: 'Roboto', sans-serif;
+      }
+      
+      p {
+        text-align: left;
+        max-width: 50em;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.5;
+      }
+      </style>
 
-    h2 {
-      text-align: center;
-      margin-top: 1.25em;
-      Color: #003e60;
-      font-family: 'Roboto', sans-serif;
-    }
-    
-    p {
-      text-align: left;
-      max-width: 50em;
-      font-family: 'Roboto', sans-serif;
-      line-height: 1.5;
-    }
-
-    
-
-    </style>
-  
-  
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="Aboutme.html">About</a>
-    <a href="Projects.html">Projects</a>
-    <a href="Contact.html">Contact</a>
-  </nav>
-
+  </head>
   <body>
-  <h1>Welcome to my Contact me Page</h1> <!-- This is Important for the Tab Header-->
+    
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="Aboutme.html">About</a>
+      <a href="Projects.html">Projects</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+    
+    <h1>Welcome to my Contact me Page</h1> <!-- This is Important for the Tab Header-->
+    <p>This is the contact me page, where you can leave a comment and get in touch!</p>
+    <h2>Contact Me</h2>
 
-  <p>This is the contact me page, where you can leave a comment and get in touch!</p>
+    <form action="" style="width: fit-content; margin: 0 auto; text-align: left;"> 
+      <label for="name">Your Full Name:</label>
+      <br>
+      <input type="text" id="name" name="name" style="width: 25em; height: 1.5625em;">
+      <br>
+      <br>
+      <label for="lname">Your Email:</label>
+      <br>
+      <input type="email" id="email" name="email" style="width: 25em; height: 1.5625em;" required>
+      <br>
+      <br>
+      <label for="mssg">Message:</label>
+      <br>
+      <input type="text" id="mssg" name="mssg" style="width: 25em; height: 6.25em;"> <!-- I could not figure out how to have the text go to the top.-->
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+    </form> 
 
+    <footer style="text-align: center; padding: 1.25em; margin-top: 3.125em; color: #000000;">
+      &copy; 2025 Kevin M. All Rights Reserved | kevin.massey@ontariotechu.net
+    </footer>
 
-
-  <!DOCTYPE html>
-<html>
-<body>
-
-<h2>Contact Me</h2>
-
-<form action="" style="width: fit-content; margin: 0 auto; text-align: left;"> 
-  <label for="name">Your Full Name:</label>
-  <br>
-  <input type="text" id="name" name="name" style="width: 25em; height: 1.5625em;">
-  <br>
-  <br>
-  <label for="lname">Your Email:</label>
-  <br>
-  <input type="email" id="email" name="email" style="width: 25em; height: 1.5625em;" required>
-  <br>
-  <br>
-  <label for="mssg">Message:</label>
-  <br>
-  <input type="text" id="mssg" name="mssg" style="width: 25em; height: 6.25em;"> <!-- I could not figure out how to have the text go to the top.-->
-  <br>
-  <br>
-  <input type="submit" value="Submit">
-</form> 
-
-<footer style="text-align: center; padding: 1.25em; margin-top: 3.125em; color: #000000;">
-  &copy; 2025 Kevin M. All Rights Reserved | kevin.massey@ontariotechu.net
-</footer>
+</html>
